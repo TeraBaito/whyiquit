@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    word-wrap: break-word;
+    color: white;
+    background-color: #181a1b;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#navbar {
+    font-family: 'Fira Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 4em;
+}
+
+#navbar > a { text-decoration: none; }
+a:link, a:visited { color: #228b22; }
+a:hover, a:active { color: #61c461; }
+
+.speech {
+    text-align: justify;
+    margin: 0 8em;
+}
+
+#date { color:#1565b6 }
+
+#niko { text-align: center; }
+
+#listbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 10em;
+}
+
+.head {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.listitem {
+    border: 3px solid dodgerblue;
+    padding: 0.2em 1em;
+    border-radius: 5px;
+    margin: 0.2em;
+}
+
+.button {
+    display: flex;
+    margin: 0 2em;
+    justify-content: center;
+}
+
+.button > a {
+    border: 5px solid dodgerblue;
+    color: lightseagreen;
+    padding: 0.75em 1.5em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button > a:hover, .button > a:visited {
+    background-color: rgba(30, 143, 255, 0.25)
+}
+
+.game {
+    display: flex;
+}
+
+#gameButton {
+    order: 1;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 25px;
+    line-height: 70px;
+    height: 70px;
+    width: 70px;
+    margin-top: 1em;
+    margin-left: -2em; /* monkey problem-solving :^) */
+    background-color: #1565b6;
+    border-radius: 50%;
+
+    /* Annoying to have to select it */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

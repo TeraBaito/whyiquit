@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title and OpenGraph embed data -->
+    <title>Why I quit</title>
+    <meta property="og:title" content="Why I quit">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://terabaito.github.io/whyiquit">
+    <meta property="og:image" content="https://terabaito.github.io/whyiquit/assets/nikopensive.png">
+    <meta property="og:description" content="The reason I quit Discord, a rundown of my experience on it, acknowledgments and what's to come from here.">
+
+    <link rel="stylesheet" href="styles/main.css"> <!-- Styling for the main body classes -->
+    <link rel="stylesheet" href="styles/tooltips.css"> <!-- CSS for tooltips (the things that appear when you hover)-->
+
+    <!-- Sweetalert -->
+    <link rel="stylesheet" href="node_modules/@sweetalert2/theme-dark/dark.css">
+    <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+</head>
+<body>
+    <!-- Navigation bar flexbox at the top with links -->
+    <div id="navbar">
+        <a href="https://github.com/TeraBaito/whyiquit">Source</a>
+        <a href="https://discord.gg/RJBfrr4">Discord Server</a>
+        <a href="javascript:void(0)" onclick="isOpinionAvailable()">Opinion page</a>
+    </div>
+    <h1 class="head">Why I (probably) quit Discord</h1>
+    <div class="speech">
+        <p>
+            Hey there. If you're seeing this I probably uploaded this to GitHub and sent it in Discord. I wanted to send this as a notice because I want to have it planned for when I go, instead of making a sudden leave and make everyone concerned and do last minute shit to get me back (specially when I'm not one to simply quit). So I'll explain it here.
+        </p>
+        <p>
+            Basically, I got accepted to a new highschool. You knowing me, you know I'm always busy doing one of my many extraclasses, but I still got some time to slack off regardless. Now, imagine this: I'm moving to the same school, but with less time to spare. Like, way less. Or at least that's what I imagine. Time and experience will tell, but from what I've seen and heard that's how it is. You get out at classes 5pm or 6pm (I think?) just to have to get home and do extraclass, probably due tomorrow. Get this too: most of the people in there had actually gotten <b>0s</b> in their first exams, no joke. And there's no recovery exam so if you don't pass your study's over (and you're expelled, they don't even let the chance of repeating a year). It is 2 years of what we call <span class="tooltip">"educación diversificada"<span class="tooltiptext">high school?</span></span>, and even though "it's just 2 years" it is very much. That is actually the time I've been engaging with the Jaiden server, or the time I was actually active in Alex's server (and even a <span class="tooltip">bit more<span class="tooltiptext">1.5 years + 6 months</span></span>). And that will mean a lot more inactivity. I don't know how much it'll be yet (because again, I haven't experienced it) but I certainly won't be as active as I used to be.
+        </p>
+        <p>
+            I am aware I wasn't the most important member, the most important admin or the most important person to pretty much everyone, and I really didn't care. I knew as long as I had people to talk to that I enjoyed, and that they enjoyed talking to me, I would keep on. That's why I'm doing this: I am fully aware not most people will care so big if I quit (they will, but not as much as members that are actually fully commited and active, and that many people value on a higher regard), but I know there will be a sign of care over here. This will also be a way of clearing off my mind, because I'd become restless if I quit overnight, and I'd get a lot more pings and I'd confuse everyone and make them think something really bad happened and/or I suddenly hate them. Plus, this website will also serve as a way to give out my opinion over things on the server, without a need for discussion or further explanation (which will further detriment my view of the server, specially with this <span class="tooltip">one person<span class="tooltiptext">you should know who, if they come back that is</span></span>), so I felt in the need to make it.
+        </p>
+        <p> <!-- Add a date here once I get the start of lessons -->
+            On <span id="date"></span>, lessons will start, I'll publish this website with enough grace time to prepare. The "opinion" page will come later, maybe the last day, to disallow as least conversation as possible with me (as I <b>do not</b> want to engage in such conversations). I want to leave those as a manifesto.
+        </p>
+        <p>
+            There's so much things to say, so much I am glad for, so many people I've enjoyed talking to. Mentioning only one of the main ones is completely unfair, so here's a list of the people I've valued over time talking to. I'm sorry if you're not on this list, I might or might not have missed you <img src="assets/pensive.svg" width="20" height="20">
+        </p>
+        <div id="listbox"></div>
+        <p>
+            I opened Discord for the first time when my IRL friends invited me to chat with them in a server. After that (and finding servers of animators I loved) started a grand path that'd take me for almost 3 years. I was great part of the Alex server when its popularity blew up, and I no-lifed the chat. At start of 2020 I'd join the Jaiden server and would start to experience drastic changes on how to mold my personality (and my humor too www). Eventually that became the server where I'd spend all day on, specially once I had a computer to chat with. I had applied like 2 weeks after I joined for helper in the apps, and I got it, and I grasped that role. Since then I had been chatting and eventually got promoted to mod. Rose had left the admin team and I became the replacement. One revolt, various incidents, many mod arguments and a lot of inactivity later there I was, holding that role; regarded as the laziest but funniest admin of there all (beat me to it <img src="assets/sungl.png" width="20" height="20">). But I know by heart that I stayed with that role because people liked me, people enjoyed talking to me as much as they enjoyed my modding. I never had the biggest modlog highscore, I never did a massban, I don't think I ever experienced a raid (because all the fun shit happens at 2AM), but I did do the normal mod stuff. One of the main reasons I stayed with admin though, was for developing Ari Bot. Ari Bot has been my beloved for over a year. We've come from a broken and badly developed <a href="https://github.com/TeraBaito/toucan-bot-discord">Toucan</a>, to a much better developed <a href="https://github.com/TeraBaito/jaidens-discord-utilities" target="_blank">Ari</a> that now includes much more things like databases, settings, blacklisting, and much to talk. That pretty much became my schtick to keep on managing the server. And I don't regret it at all.
+        </p>
+        <p>
+            Now that I gotta go, I just gotta say thank you to everyone who enjoyed to talk to me, who liked to crack jokes with me, and overall just talk out stuff. Thank you to everyone who helped me in any way in any of my projects. Thank you to everyone who played games with me (literally just osu! lmao), invited me to their servers and/or GCs (mongolia gc waiting room). Thank you for all the good stuff and being there as my friend regardless of what I might've done that could affect such friendship.
+            <br><span style="font-size: 10px;">god that was some cringe acknowledgements</span>
+        </p>
+        <p>
+            Talking about the future of my stuff: I will try to keep maintaining Ari Bot updated with patches as needed (maybe told through the <a href="https://github.com/TeraBaito/jaidens-discord-utilities/issues">Issues</a> tab of the repo? Haven't thought of that yet). New features could or could not be added by myself, depends on how inactive I become. I'm sure <a href="https://github.com/MaxTechnics">Max</a> will keep on the project if strictly needed, though. I will resign from my staff position, perhaps completely or perhaps staying as a helper to help on the side when possible. I won't be a great part at moderation, certainly. Much less once I upload the <span class="tooltip">opinion website<span class="tooltiptext">you might know why once you see it</span></span>, which I'll try my best to not be censored. I will quit osu!, probably not entirely because I like the game a lot, but I'll play way more casually (no more tourneys or farming or whatever). My <a href="https://discord.gg/RJBfrr4">server</a> will stay up, and I'll talk on it every now and then. I won't delete my account, and I won't uninstall Discord (at least while it doesn't bug me, maybe I'll leave some servers and remove notifications idk). I will get online every now and then, check pings, talk stuff as needed, and move on. I don't expect it to be that dramatic up to the point where I'd say one sentence every 3 months, but it won't be as frequent.
+        </p>
+        <p>
+            And with that, I think I have no more to say on this page. I just give a big thanks for everything, and a big farewell. I know everyone and every community I've mentioned here will foster a bigger, better and more fun place for everyone. And that things move on over time.
+        </p>
+        <div id="niko"><img src="assets/niko.png"></div>
+        <p>
+            PS: As I've scattered in the text here, I'll be making a opinion page, with many of my points of view over the Jaiden server, and how I believe some niche aspects should be handled rather than how they are currently (at least by the time I write it). To save you a click, here's a button that redirects you to the page if available, or tells you otherwise.
+        </p>
+    </div>
+    <div class="button">
+        <a onclick="isOpinionAvailable()">where opinion page</a>
+    </div>
+    <div class="game">
+        <div class="speech">
+            <p><br>Also, just for the funnies: here's a button that increments
+                <br>a counter every time you click it</p>
+        </div>
+        <div id="gameButton" onclick="gameIncrement()">1</div>
+    </div>
+    
+</body>
+<script src="scripts/main.js"></script> <!-- Here because it needs to run after the body is loaded -->
+</html>
