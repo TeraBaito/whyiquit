@@ -1,5 +1,5 @@
 // Make every link in the speech div open in another tab
-for (link of document.getElementsByClassName('speech')[0].getElementsByTagName('a')) link.target = '_blank';
+for (let link of document.getElementsByClassName('speech')[0].getElementsByTagName('a')) link.target = '_blank';
 
 // TELL ME IF YOU AREN'T HERE AND WE TALK A LOT (you should know I dislike you if I dislike you)
 const names = [
@@ -45,7 +45,7 @@ for (let name of names) {
 }
 
 // Add specific date here, maybe without hour because that's kinda creepy lol
-document.getElementById('date').innerHTML = new Date('February 10, 2022').toDateString();
+document.getElementById('date').innerHTML = new Date('February 1, 2022').toDateString();
 
 // Checks if the HTML of opinion.html has an element by name "notyet"
 // meaning the opinion website isn't released yet
