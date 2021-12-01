@@ -14,6 +14,10 @@ img {
     vertical-align: middle;
 }
 
+#niko > img {
+    max-width: 100%
+}
+
 #navbar {
     font-family: 'Fira Mono', monospace;
     display: flex;
@@ -31,6 +35,16 @@ a:hover, a:active { color: #61c461; }
     margin: 0 8em;
 }
 
+/* Media queries make me wanna kill myself
+   -macks */
+@media only screen and (max-width: 800px) {
+    .speech,
+    #listbox,
+    #navbar {
+        margin: 0 1em !important;
+    }
+}
+
 #date { color:#1565b6 }
 
 #niko { text-align: center; }
@@ -39,7 +53,7 @@ a:hover, a:active { color: #61c461; }
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 10em;
+    margin: 0 10%;
 }
 
 .head {
