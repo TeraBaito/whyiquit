@@ -4,7 +4,6 @@ for (let link of document.getElementsByClassName('speech')[0].getElementsByTagNa
 // TELL ME IF YOU AREN'T HERE AND WE TALK A LOT (you should know I dislike you if I dislike you)
 const names = [
     "Kirito",
-    "Max",
     "Kowa",
     "Shrimp",
     "Meme",
