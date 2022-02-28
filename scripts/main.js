@@ -65,7 +65,7 @@ async function isOpinionAvailable() {
             icon: 'success',
             showConfirmButton: false
         });
-        setTimeout(() => window.location.replace('./opinion.html'), 2000);
+        setTimeout(() => window.location.replace('/opinion'), 2000);
     }   
 }
 
